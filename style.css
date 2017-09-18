@@ -5,14 +5,26 @@
 nav{
   background-color: #FFF;
 }
+#project-Grid{
 
-.projects{
-  list-style: none;
+}
+
+.projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px 100px;
 }
-
+.project{
+  border: thin solid black;
+  padding: 1rem;
+  margin: 1rem;
+}
 .footer{
   text-align: center;
 }
+/*
+ span {
+
+  border: thin solid black;
+}
+*/

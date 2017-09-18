@@ -8,7 +8,7 @@
   <meta charset="utf-8">
 
   <!--Responsive mobile, meta required.-->
-  <meta name="viewport" content="width=device-width, initial-scale=1 shrint-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 <!-- Link to Bootstrap CSS. -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"
   title="default style">
@@ -17,15 +17,19 @@
 
 <body class="body">
 
-    <nav role="navigation" class="navbar navbar-default navbar-fixed-right">
-      <div class="container">
+  <!-- Navigation bar -->
+  <div class="navbar-outer">
+    <div class="navbar-inner">
+      <nav role="navigation" class="navbar">
+        <a class="brand" href="#">LoremIp</a>
       <ul class="nav">
         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
       </ul>
-    </div>
     </nav>
+  </div>
+</div>
 
 
   <div class="jumbotron" align="center">
@@ -39,31 +43,35 @@
   </div>
 
   <div id="body" class ="container-fluid"  align="center">
-    <div id="about" class="col-m-4">
+    <div id="about" class="col-md-4">
       <h3>
         About Me
       </h3>
-      <p>a little more about myself and my elevator scpeiel </p>
+      <p>A little more about myself and my elevator scpeiel </p>
     </div>
 
-    <div id="portfolio" class="col-m-4">
+
+      <div id="portfolio">
       <h3>
         Portfolio
       </h3>
-      <div id="projects" class="container-fluid">
-        <p>all of my projects thus far</p>
+      <p>all of my projects thus far</p>
+      <hr>
+        <div class="container-fluid">
         <div class="projects">
-          <div>project1</div>
-          <div>project2</div>
-          <div>project3</div>
-          <div>project4</div>
-          <div>project5</div>
-          <div>project6</div>
+          <div class="project">project1</div>
+          <div class="project">project2</div>
+          <div class="project">project3</div>
+          <div class="project">project4</div>
+          <div class="project">project5</div>
+          <div class="project">project6</div>
       </div>
       </div>
     </div>
 
-    <div id="contact" class="col-m-2">
+    <hr>
+
+    <div id="contact" class="col-md-6">
       <h3>
         Contact me if any of those projects seem like something you'd like to have!
       </h3>
