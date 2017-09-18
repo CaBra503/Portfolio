@@ -10,61 +10,73 @@
   <!--Responsive mobile, meta required.-->
   <meta name="viewport" content="width=device-width, initial-scale=1 shrint-to-fit=no">
 <!-- Link to Bootstrap CSS. -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"
   title="default style">
-
-  <!--My style sheet -->
-  <link href="style.css" rel="altStylesheet" title="MyStyling">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="body">
 
-  <div class="navbar">
-    <nav class="nav">
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-right">
+      <div class="container">
       <ul class="nav">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
       </ul>
+    </div>
     </nav>
-  </div>
 
-  <div class="header" style="border: thin solid black">
+
+  <div class="jumbotron" align="center">
     <h1>
-       Hello World. Lorem ipsum.
+       Hello World, lorem ipsum.
     </h1>
-
-  <hr>
-
+<hr>
     <h2>
         This is my portfolio project, This area contains a quick objective and a overview of my skills.
     </h2>
-  <hr>
   </div>
 
-  <div class ="col">
-    <div id="about">
+  <div id="body" class ="container-fluid"  align="center">
+    <div id="about" class="col-m-4">
       <h3>
         About Me
       </h3>
+      <p>a little more about myself and my elevator scpeiel </p>
     </div>
-  <hr>
-    <div class="">
+
+    <div id="portfolio" class="col-m-4">
       <h3>
         Portfolio
       </h3>
-
+      <div id="projects" class="container-fluid">
+        <p>all of my projects thus far</p>
+        <div class="projects">
+          <div>project1</div>
+          <div>project2</div>
+          <div>project3</div>
+          <div>project4</div>
+          <div>project5</div>
+          <div>project6</div>
+      </div>
+      </div>
     </div>
-  <hr>
-    <div class="contact">
+
+    <div id="contact" class="col-m-2">
       <h3>
-        Contact me
+        Contact me if any of those projects seem like something you'd like to have!
       </h3>
+        <p>Contact Form going here.</p>
     </div>
 </div>
 
-
+<hr>
+<div class="footer">
+  <p>
+    Footer content going here.
+  </p>
+</div>
 
   <!-- Optional JavaScript-->
   <!--jQuery must come first, then Popper.js, then Bootstrap -->

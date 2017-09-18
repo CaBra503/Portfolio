@@ -1,3 +1,18 @@
-a:active {
-  background-color: lightgrey;
+.body{
+  background: #f3f3f3;
+}
+
+nav{
+  background-color: #FFF;
+}
+
+.projects{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+}
+
+.footer{
+  text-align: center;
 }
