@@ -3,21 +3,21 @@
 }
 
 nav{
-  background-color: #FFF;
+  background-color: #000;
 }
-#project-Grid{
-
+#portfolio{
+ align-content: center;
 }
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 100px;
+
+  margin:
 }
 .project{
   border: thin solid black;
-  padding: 1rem;
-  margin: 1rem;
+padding: 20px;
+
 }
 .footer{
   text-align: center;
