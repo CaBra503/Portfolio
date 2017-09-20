@@ -11,14 +11,56 @@ nav{
 
 .projects {
   display: grid;
-
   margin:
 }
 .project{
   border: thin solid black;
 padding: 20px;
-
 }
+
+.contact-form{
+margin: 0 auto;
+width: 100%;
+padding: 1rem;
+border: 1px solid #000;
+border-radius: 1rem;
+}
+
+form div + div {
+  margin-top: 1 rem;
+}
+
+label{
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea{
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button{
+  padding-left: 90px;
+}
+
+button{
+  margin-top: .5em;
+  magin-left: .5em;
+}
+
 .footer{
   text-align: center;
 }
