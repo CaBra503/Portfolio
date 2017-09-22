@@ -57,33 +57,33 @@
       </h3>
       <p>all of my projects thus far</p>
       <hr>
-         <div id="" class="album">
-           <div class="row">
+         <div id="" class="container">
+           <div class="row container-fluid projects">
              <div class="project col-md-4">
                <img src=".." alt=".." class="img-thumbnail">
-               project1
+                project1
              </div>
-             <div class="project col-md-4">
-             <img src="..." alt="..." class="img-thumbnail">
-             project2
-           </div>
-             <div class="project col-md-4">
-             <img src="..." alt="..." class="img-thumbnail">
-             project3
-           </div>
-          </div>
-           <div class="row">
-             <div class="project col-md-4">
-             <img src="..." alt="..." class="img-thumbnail">
-             project4
-           </div>
              <div class="project col-md-4">
                <img src="..." alt="..." class="img-thumbnail">
-               project5
-             </div>
+                  project2
+            </div>
+            <div class="project col-md-4">
+               <img src="..." alt="..." class="img-thumbnail">
+                project3
+           </div>
+         </div>
+           <div class="row container-fluid projects">
              <div class="project col-md-4">
+               <img src="..." alt="..." class="img-thumbnail">
+                  project4
+           </div>
+           <div class="project col-md-4">
              <img src="..." alt="..." class="img-thumbnail">
-             project6
+               project5
+           </div>
+           <div class="project col-md-4">
+             <img src="..." alt="..." class="img-thumbnail">
+              project6
            </div>
           </div>
          </div>
@@ -93,21 +93,29 @@
 
     <hr>
 
-    <div id="contact" class="contact">
+    <div class="container" id="contact">
       <h3>
         Contact me if any of those projects seem like something you'd like to have!
       </h3>
         <p>Contact Form going here.</p>
-        <div class="contact-form container">
-        <form action="/my-form-DB" method="post">
 
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" value="Your Name.">
-            <label for="mail">E-Mail</label>
-            <input type="email" id="mail" name="user_email" value="Your Email">
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-            <button type="submit">Send your message</button>
+        <div class="contact-form">
+        <form action="/my-form-DB" method="post">
+          <fieldset>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" value="Your Name.">
+            </div>
+            <div class="form-group">
+              <label for="mail">E-Mail:</label>
+              <input type="email" id="mail" name="user_email" value="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="user_message" name="user_message"></textarea>
+            </div>
+            <button type="submit" class="button" value="submitMessage">Send your message</button>
+          </fieldset>
         </form>
     </div>
 </div>
