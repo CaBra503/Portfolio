@@ -1,47 +1,107 @@
+
 .body{
-  background: #f3f3f3;
+  background: #f0f0f0;
+  padding-top: 250px;
 }
 
-nav{
-  background-color: #000;
+#headingWrapper{
+  background: #ef1;
+  width: 100%;
+  height:300px;
+  top: 0;
+  padding-top:50px;
+  position: fixed;
+  border: thin solid black;
+
+
+}
+#main-nav-header {
+   background: #f07307;
+  padding-right: 0;
+  padding-left:0;
+  border: thin solid black;
+  text-align: center
+}
+
+#main-nav-scrolled{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+#main-nav,
+#main-content{
+  position: relative;
+}
+#main-content{
+  padding-top: 15px;
+}
+#content-container{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#main-content, #about, #portfolio, #contactMe {
+  background: #f2f2e8;
+  border: thin solid black;
+}
+
+
+
+#about{
+  align: center;
 }
 #portfolio{
  align-content: center;
+
+
 }
 
 .projects {
 margin-bottom: 10px;
-margin-top: 10px;
+margin-top: 0px;
+ display: inline-flex;
 }
 
 .project{
   border: 1px solid black;
-  display: block;
-  align: center;
+
   padding: 5px;
+  margin: 5px;
 }
 
 .contact-form{
-  margin: 0 auto;
-  max-width:100%;
-  padding: 1rem;
-  border: 1px solid #000;
-  border-radius: 1rem;
+max-width: 100%;
+margin: 0;
+padding: 0;
+display: flex;
+
 }
 
-form div + div {
-  margin-top: 1rem;
+.contact-form.left{
+  width: 60%;
+  float: left;
 }
 
-label{
-  display: inline-block;
-  width: 90px;
+.contact-form.right{
+  width: 40%;
+  float: right;
+}
+
+
+.form-group {
+  margin-top: .5rem;
+}
+
+.form-label{
+  display: inline;
+  width: 30px;
   text-align: center;
 }
 
 input, textarea{
   font: 1em sans-serif;
-  width: 300px;
+  width: inherit;
   box-sizing: border-box;
   border: 1px solid #999;
 }
@@ -52,18 +112,16 @@ input:focus, textarea:focus {
 
 textarea {
   vertical-align: top;
-  height: 5em;
+  height: 1.5rem;
 }
 
 .button{
-
-}
-
-button{
   margin-top: .5em;
   margin-left: .5em;
 }
 
 .footer{
+  background: #f0f0f0;
   text-align: center;
+  position: bottom;
 }
