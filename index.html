@@ -13,24 +13,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body id="body" class="body" align="justify-center" data-spy="scroll" data-target="#navbar" data-offset="0">
+<body id="body" class="body" align="justify-center" data-spy="scroll" data-target="#nav" data-offset="0">
   <!-- heading begins -->
- <div class="headingWrapper" position="center">
-<div class="container">
-  <div id="main-nav-header" class="container">
-    <header>
-      <h1>loremipsum</h1>
-      <h2>lorem</h2>
-      <h3>mutha</h3>
-      <h4>Faka</h4>
-    </header>
+  <div class="headingWrapper" position="center">
+    <div class="container">
+      <div id="main-nav-header" class="container">
+        <header>
+          <h1>loremipsum</h1>
+          <h2>lorem</h2>
+          <h3>mutha</h3>
+          <h4>Faka</h4>
+        </header>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-<!-- main - nav - header ends -->
+  <!-- main - nav - header ends -->
 
   <!-- main-nav begins. -->
-<!-- <div class="container-fluid" role="navigation"> -->
+  <!-- <div class="container-fluid" role="navigation"> -->
   <nav class="main-nav navbar nav navbar-light bg-light">
     <a class="navbar-brand" href="#">LoremIp</a>
     <ul class="nav nav-pills">
@@ -48,117 +48,115 @@
       </li>
     </ul>
   </nav>
-<!-- </div> -->
+  <!-- </div> -->
 
-<!-- main content of the page is wrapped in  #content-container-->
+  <!-- main content of the page is wrapped in  #content-container-->
   <div id="content-container" class="wrapper">
     <div id="main-content" class="container-fluid">
-    <div id="hello" class="jumbotron" align="center">
-      <h1 id="helloworld">Hello World.</h1>
-      <hr>
-      <h2>
+      <div id="hello" class="jumbotron" align="center">
+        <h1 id="helloworld">Hello World.</h1>
+        <hr>
+        <h2>
       This is my portfolio project, This area contains a quick objective and a overview of my skills.
     </h2>
-    </div>
-    <hr>
-    <div id="aboutMe" class="container-fluid" align="center">
-      <h3>
+      </div>
+      <hr>
+      <div id="aboutMe" class="container-fluid" align="center">
+        <h3>
         <b>
      About Me
         </b>
     </h3>
-      <h4><b>Skills and focus.</b></h4>
-      <p>A little more about myself and my elevator scpeiel </p>
-    </div>
+        <h4><b>Skills and focus.</b></h4>
+        <p>A little more about myself and my elevator scpeiel </p>
+      </div>
 
-    <hr>
-    <div id="portfolio" class="container-fluid" align="center">
-      <h3 id="portfolioProjects">
+      <hr>
+      <div id="portfolio" class="container-fluid" align="center">
+        <h3 id="portfolioProjects">
           Portfolio
       </h3>
-      <p>all of my projects thus far</p>
-      <hr>
-      <div id="projectlist" class="container-fluid">
-        <div class="row justify-content-sm-center projects">
-          <div class="project col-sm-4">
-            <img src=".." alt=".." class="img-thumbnail"> project1
+        <p>all of my projects thus far</p>
+        <hr>
+        <div id="projectlist" class="container-fluid">
+          <div class="row justify-content-sm-center projects">
+            <div class="project col-sm-4">
+              <img src=".." alt=".." class="img-thumbnail"> project1
+            </div>
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project2
+            </div>
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project3
+            </div>
           </div>
-          <div class="project col-sm-4">
-            <img src="..." alt="..." class="img-thumbnail"> project2
-          </div>
-          <div class="project col-sm-4">
-            <img src="..." alt="..." class="img-thumbnail"> project3
-          </div>
-        </div>
-        <div class="row justify-content-sm-center projects">
-          <div class="project col-sm-4">
-            <img src="..." alt="..." class="img-thumbnail"> project4
-          </div>
-          <div class="project col-sm-4">
-            <img src="..." alt="..." class="img-thumbnail"> project5
-          </div>
-          <div class="project col-sm-4">
-            <img src="..." alt="..." class="img-thumbnail"> project6
+          <div class="row justify-content-sm-center projects">
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project4
+            </div>
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project5
+            </div>
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project6
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <hr>
+      <hr>
 
-    <div id="contactMe" class="container contact-form">
+      <div id="contactMe" class="container contact-form">
 
-      <h3 class="contact-form left">
+        <h3 class="contact-form left">
         Contact me if any of those projects seem like something you'd like to have!
         <br>
         Contact Form going here. and aditional speiel
       </h3>
-      <p class="contact-form left">loremipsum</p>
+        <p class="contact-form left">loremipsum</p>
 
-      <div class="contact-form right">
-        <form action="/form.php" method="POST">
-          <fieldset>
-            <div class="form-group">
-              <label for="name" class="form-label">Name:</label>
-              <input type="text" id="name" name="user_name" value="Your Name." required>
-            </div>
-            <div class="form-group">
-              <label for="mail" class="form-label">E-Mail:</label>
-              <input type="email" id="mail" name="user_email" value="Your Email" required>
-            </div>
-            <div class="form-group">
-              <label for="mailSubject" class="form-label">Subject:</label>
-              <input type="subject" id="subject" name="message_subject" value="Subject" required>
-            </div>
-            <div class="form-group">
-              <label for="message" class="form-label">Message:</label>
-              <textarea id="user_message" name="user_message" required></textarea>
-            </div>
-            <button type="submit" class="button" value="submitMessage">Send your message</button>
-          </fieldset>
-        </form>
+        <div class="contact-form right">
+          <form action="/form.php" method="POST">
+            <fieldset>
+              <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="Your Name." required>
+              </div>
+              <div class="form-group">
+                <label for="mail" class="form-label">E-Mail:</label>
+                <input type="email" id="mail" name="user_email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <label for="mailSubject" class="form-label">Subject:</label>
+                <input type="subject" id="subject" name="message_subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="user_message" name="user_message" placeholder="Your message here." required></textarea>
+              </div>
+              <button type="submit" class="button" value="submitMessage">Send your message</button>
+            </fieldset>
+          </form>
+        </div>
       </div>
+
+      <hr>
+
+      <!--end of main content div here-->
     </div>
-
-    <hr>
-
-
-
-    <!--end of main content div here-->
-  </div>
     <!--end of main #content-container div here-->
   </div>
 
   <div id="footer" class="footer container-fluid">
     <footer>
-        Copywrite: Written and Coded by Anthony Branze
+      Copywrite: Written and Coded by Anthony Branze
     </footer>
   </div>
   <!-- Optional JavaScript-->
   <!--jQuery must come first, then Popper.js, then Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<!--  link to custom JS Including jQuery for scrolling-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <!--  link to custom JS Including jQuery for scrolling-->
   <script type="text/javascript" src="JavascriptScroll.js"></script>
 
 </body>
