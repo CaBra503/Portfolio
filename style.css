@@ -6,14 +6,11 @@
   position: relative;
   background: #fff;
 }
-#headingWrapper{
+.headingWrapper{
   border: thin solid black;
   background: #ef1;
-  height:300px;
+  height: 200px;
   padding-top:50px;
-
-
-
 }
 #main-nav-header {
   background: #f07307;
@@ -23,25 +20,24 @@
   text-align: center
 }
 
-#main-nav-scrolled,
-#headingWrapper{
+.main-nav-scrolled,
+.headingWrapper{
   position: fixed;
   top: 0;
   width: 100%;
 }
 
- #main-nav{
+ .main-nav{
    background-color: #fff;
    height: 80px;
    z-index: 150;
-   box-shadow: 0 2px 3px rgba(0,0,0, .4)
+   box-shadow: 0 2px 3px rgba(0,0,0, .4);
+   margin-bottom: -80px;
+
  }
 
-}
 #main-content {
   position: relative;
-}
-#main-content {
   padding-top: 15px;
 }
 #content-container{
@@ -82,6 +78,7 @@ display: flex;
 .contact-form.right{
   width: 40%;
   float: right;
+  margin-right: 50px;
 }
 
 
