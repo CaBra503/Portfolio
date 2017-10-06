@@ -1,49 +1,49 @@
 .body{
-  background: #fff;
-  padding-top: 250px;
+  background: #000;
+  padding-top: 220px;
 }
+
 #content-container{
   position: relative;
   background: #fff;
-}
-.headingWrapper{
+  padding-top: 90px;
   border: thin solid black;
-  background: #ef1;
-  height: 200px;
-  padding-top:50px;
+  align: center;
 }
-#main-nav-header {
+
+.headerWrapper{
+  background: #000;
+}
+
+#main-header {
   background: #f07307;
-  padding-right: 0;
-  padding-left:0;
   border: thin solid black;
-  text-align: center
+  text-align: center;
+    padding-top: 50px;
+    width: 100%;
 }
 
 .main-nav-scrolled,
-.headingWrapper{
+.headerWrapper{
   position: fixed;
   top: 0;
   width: 100%;
 }
 
- .main-nav{
+ .main-nav,
+ .main-nav-container {
    background-color: #fff;
    height: 80px;
    z-index: 150;
    box-shadow: 0 2px 3px rgba(0,0,0, .4);
    margin-bottom: -80px;
-
  }
 
 #main-content {
   position: relative;
-  padding-top: 15px;
+  padding-top: 25px;
 }
-#content-container{
-  margin-left: 0px;
-  margin-right: 0px;
-}
+
 #hello, #aboutMe, #portfolio, #contactMe {
   background: #f2f2e8;
   border: thin solid black;
@@ -73,6 +73,7 @@ display: flex;
 .contact-form.left{
   width: 60%;
   float: left;
+  margin-left: 60px;
 }
 
 .contact-form.right{
