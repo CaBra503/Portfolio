@@ -1,22 +1,25 @@
 .body{
-  background: #000;
   padding-top: 220px;
+  position:relative;
 }
 
 #content-container{
   position: relative;
   background: #fff;
   padding-top: 90px;
-  border: thin solid black;
   align: center;
 }
 
 .headerWrapper{
-  background: #000;
+  background:  #9ce5f4;
+}
+
+header {
+  color: #F5F5F5;
 }
 
 #main-header {
-  background: #f07307;
+  background:  #9ce5f4;
   text-align: center;
     padding-top: 50px;
     width: 100%;
@@ -31,7 +34,6 @@
 
  .main-nav,
  .main-nav-container {
-   background-color: #fff;
    height: 80px;
    z-index: 150;
    box-shadow: 0 2px 3px rgba(0,0,0, .4);
