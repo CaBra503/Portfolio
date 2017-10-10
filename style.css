@@ -46,8 +46,7 @@ header {
 }
 
 #hello, #aboutMe, #portfolio, #contactMe {
-  background: #f2f2e8;
-  border: thin solid black;
+
   align: center;
 }
 
