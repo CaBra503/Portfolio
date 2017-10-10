@@ -40,6 +40,12 @@ header {
    margin-bottom: -80px;
  }
 
+ .smallerImg {
+   max-width: 120px;
+   float: left;
+   border-radius:50px;
+ }
+
 #main-content {
   position: relative;
   padding-top: 25px;
