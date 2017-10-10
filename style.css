@@ -63,7 +63,7 @@ margin-top: 0px;
 }
 
 .contact-form{
-max-width: 100%;
+min-width: 100%;
 margin: 0;
 padding: 0;
 display: flex;
@@ -77,9 +77,9 @@ display: flex;
 }
 
 .contact-form.right{
-  width: 40%;
+  min-width: 40%;
   float: right;
-  margin-right: 50px;
+
 }
 
 
