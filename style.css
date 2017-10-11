@@ -1,13 +1,14 @@
 .body{
-  padding-top: 220px;
+  padding-top: 205px;
   position:relative;
 }
 
 #content-container{
   position: relative;
   background: #fff;
-  padding-top: 90px;
+  padding-top: 100px;
   align: center;
+  max-width: 100%;
 }
 
 .headerWrapper{
@@ -52,7 +53,6 @@ header {
 }
 
 #hello, #aboutMe, #portfolio, #contactMe {
-
   align: center;
 }
 
@@ -69,23 +69,16 @@ margin-top: 0px;
 }
 
 .contact-form{
-min-width: 100%;
-margin: 0;
-padding: 0;
-display: flex;
-
+width: 20%;
 }
 
-.contact-form.left{
+.contact-form-left{
   width: 60%;
   float: left;
-  margin-left: 60px;
 }
+.contact-form-right{
 
-.contact-form.right{
-  min-width: 40%;
-  float: right;
-
+  width:20%;
 }
 
 
@@ -118,10 +111,11 @@ textarea {
 .button{
   margin-top: .5em;
   margin-left: .5em;
+
 }
 
 .footer{
-  background: #f0f0f0;
+  background: ;
   text-align: center;
   position: bottom;
 }
