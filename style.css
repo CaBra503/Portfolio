@@ -1,13 +1,14 @@
 .body{
-  padding-top: 220px;
+  padding-top: 205px;
   position:relative;
 }
 
 #content-container{
   position: relative;
   background: #fff;
-  padding-top: 90px;
+  padding-top: 100px;
   align: center;
+  max-width: 100%;
 }
 
 .headerWrapper{
@@ -40,14 +41,18 @@ header {
    margin-bottom: -80px;
  }
 
+ .smallerImg {
+   max-width: 120px;
+   float: left;
+   border-radius:50px;
+ }
+
 #main-content {
   position: relative;
   padding-top: 25px;
 }
 
 #hello, #aboutMe, #portfolio, #contactMe {
-  background: #f2f2e8;
-  border: thin solid black;
   align: center;
 }
 
@@ -64,23 +69,16 @@ margin-top: 0px;
 }
 
 .contact-form{
-max-width: 100%;
-margin: 0;
-padding: 0;
-display: flex;
-
+width: 20%;
 }
 
-.contact-form.left{
+.contact-form-left{
   width: 60%;
   float: left;
-  margin-left: 60px;
 }
+.contact-form-right{
 
-.contact-form.right{
-  width: 40%;
-  float: right;
-  margin-right: 50px;
+  width:20%;
 }
 
 
@@ -113,10 +111,11 @@ textarea {
 .button{
   margin-top: .5em;
   margin-left: .5em;
+
 }
 
 .footer{
-  background: #f0f0f0;
+  background: ;
   text-align: center;
   position: bottom;
 }
