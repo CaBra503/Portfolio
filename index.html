@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Portfolio page
+  </title>
+  <!--Responsive mobile, meta required.-->
+  <meta charset=" utf8" name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+  <!-- Link to Bootstrap CSS. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" title="default style">
+  <!-- My own Custom Css here. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<!-- End of HTML Head -->
+
+<body id="body" class="body" align="justify-center" data-spy="scroll" data-target="#nav" data-offset="0">
+  <!-- headingwrapper begins -->
+ <div class="headerWrapper container-fluid" position="center">
+
+      <div id="main-header" class="container-fluid">
+        <header>
+          <h1>loremipsum</h1>
+          <h2>lorem</h2>
+          <h3>mutha</h3>
+          <h4>Faka</h4>
+        </header>
+      </div>
+  </div>
+
+  <!-- header Wrapper ends here -->
+
+  <!-- main-nav begins. -->
+  <div class="main-nav-container" role="navigation">
+    <nav class="main-nav navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">LoremIp</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="helloWorld">Hello World</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="aboutMe">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="#portfolioProjects">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item nav-link" href="#contactMe">Contact</a>
+          </li>
+        </ul>
+    </nav>
+  </div>
+
+  <!-- main content of the page is wrapped in  #content-container-->
+  <div id="content-container" class="container-fluid">
+    <div id="main-content" class="container-fluid">
+      <div id="hello" class="jumbotron" align="center">
+        <h1 id="helloworld">
+          Hello World.
+        </h1>
+          <hr>
+        <h2>
+          This is an original project. I am building this as a way to showcase my skills and projects.
+            My intended goal will go here.
+        </h2>
+       </div>
+      <hr>
+      <!-- begin AboutMe section -->
+      <div id="aboutMe" class="container-fluid" align="center">
+        <h3>
+          <b>About Me</b>
+        </h3>
+        <h4>
+          <b>Skills and focus.</b>
+        </h4>
+        <p>
+          A bit more about myself and my elevator scpeiel,
+          area contains a quick objective and a overview of my skills.
+        </p>
+
+        <h5>
+          What my short term and long term goals are in regards to development.
+        </h5>
+      </div>
+      <!-- end of AboutMe section -->
+      <hr>
+      <!-- begin portfolio section, contains content & projectlist -->
+      <div id="portfolio" class="container-fluid" align="center">
+        <h3 id="portfolioProjects">
+          <b>Portfolio</b>
+        </h3>
+        <h4>
+          A list of some of my projects thus far.
+        </h4>
+          <hr>
+      <!-- begin projectList section containing thumbnails and links to projects-->
+        <div id="projectlist" class="container-fluid">
+          <div class="row justify-content-sm-center projects">
+            <div class="project col-sm-4">
+              <img src=".." alt=".." class="img-thumbnail"> project1
+            </div>
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project2
+            </div>
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project3
+            </div>
+          </div>
+          <!-- end of first row of projects list -->
+
+          <!-- Begin second row of projects list -->
+          <div class="row justify-content-sm-center projects">
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project4
+            </div>
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project5
+            </div>
+            <div class="project col-sm-4">
+              <img src="..." alt="..." class="img-thumbnail"> project6
+            </div>
+          </div>
+          <!-- End of second row of projects -->
+        </div>
+        <!-- End of project list div -->
+      </div>
+      <!--End of Project section div -->
+
+      <hr>
+
+      <!-- Begin ContactMe section-->
+      <div id="contactMe" class="container contact-form">
+        <h3 class="contact-form left">
+          Contact me if any of those projects seem like something you'd like to have!
+          <br>
+          Contact Form going here. and aditional speiel
+          <div id="socialLinks">
+            <span class="social social-github" position="relative"></span>
+          </div>
+        </h3>
+        <p class="contact-form left">
+          loremipsum, Except I cant quite get this stupid element to line up the way I want it to.
+        </p>
+        <!-- End of Contact me content -->
+
+        <!-- Contact form section begins -->
+        <div class="contact-form right">
+          <form action="/form.php" method="POST">
+            <fieldset>
+              <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="Your Name." required>
+              </div>
+              <div class="form-group">
+                <label for="mail" class="form-label">E-Mail:</label>
+                <input type="email" id="mail" name="user_email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <label for="mailSubject" class="form-label">Subject:</label>
+                <input type="subject" id="subject" name="message_subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="user_message" name="user_message" placeholder="Your message here." required></textarea>
+              </div>
+              <button type="submit" class="button" value="submitMessage">Send your message</button>
+            </fieldset>
+          </form>
+        </div>
+        <!-- end of form div above -->
+      </div>
+      <!-- End of Contact me section div above -->
+      <hr>
+
+      <!--end of main-content div Below here -->
+    </div>
+    <!--end of content-container div below here-->
+  </div>
+<!-- begin footing of page -->
+  <div id="footer" class="footer container-fluid">
+    <footer>
+
+      Copywrite: Written and Coded by Anthony Branze
+    </footer>
+  </div>
+  <!-- end of content entirely-->
+  <!-- Optional JavaScript-->
+  <!--jQuery must come first, then Popper.js, then Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <!-- finally link to custom JS for sticky-nav when scrolling-->
+  <script type="text/javascript" src="JavascriptScroll.js"></script>
+
+</body>
+
+</html>

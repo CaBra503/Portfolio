@@ -1,0 +1,122 @@
+.body{
+  padding-top: 220px;
+  position:relative;
+}
+
+#content-container{
+  position: relative;
+  background: #fff;
+  padding-top: 90px;
+  align: center;
+}
+
+.headerWrapper{
+  background:  #9ce5f4;
+}
+
+header {
+  color: #F5F5F5;
+}
+
+#main-header {
+  background:  #9ce5f4;
+  text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.main-nav-scrolled,
+.headerWrapper{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ .main-nav,
+ .main-nav-container {
+   height: 80px;
+   z-index: 150;
+   box-shadow: 0 2px 3px rgba(0,0,0, .4);
+   margin-bottom: -80px;
+ }
+
+#main-content {
+  position: relative;
+  padding-top: 25px;
+}
+
+#hello, #aboutMe, #portfolio, #contactMe {
+  background: #f2f2e8;
+  border: thin solid black;
+  align: center;
+}
+
+.projects {
+margin-bottom: 10px;
+margin-top: 0px;
+ display: inline-flex;
+}
+
+.project{
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.contact-form{
+max-width: 100%;
+margin: 0;
+padding: 0;
+display: flex;
+
+}
+
+.contact-form.left{
+  width: 60%;
+  float: left;
+  margin-left: 60px;
+}
+
+.contact-form.right{
+  width: 40%;
+  float: right;
+  margin-right: 50px;
+}
+
+
+.form-group {
+  margin-top: .5rem;
+}
+
+.form-label{
+  display: inline;
+  width: 30px;
+  text-align: center;
+}
+
+input, textarea{
+  font: 1em sans-serif;
+  width: inherit;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 1.5rem;
+}
+
+.button{
+  margin-top: .5em;
+  margin-left: .5em;
+}
+
+.footer{
+  background: #f0f0f0;
+  text-align: center;
+  position: bottom;
+}
